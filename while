@@ -1,0 +1,14 @@
+
+
+nombre= input(" nombre")
+adivinar = ""
+oportunidades=6
+while nombre != adivinar:
+   oportunidades -=1
+   print(str(oportunidades)+" oportunidades ")
+   adivinar= input("adivine el nombre: ")
+   if oportunidades == 0:
+     print("perdiste")
+     break
+else:
+   print("Adivino!")
